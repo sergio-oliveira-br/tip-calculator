@@ -1,0 +1,43 @@
+body
+{background-color: #C5E4E4;}
+
+/*
+** Card
+*/
+.card
+{
+      background-color: red;
+      display: grid;
+      grid-template-columns: auto auto;
+      width: 50%;
+      height: 400px;
+      border-radius: 50px;
+}
+
+/*
+** Input
+*/
+.inputSide
+{
+      background-color: bisque;
+}
+
+/*
+** Output
+*/
+.outputSide
+{
+      background-color: #095458;
+}
+
+/*
+** Signature
+*/
+.attribution 
+{ 
+      font-size: 11px; 
+      text-align: center; 
+}
+
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
