@@ -21,12 +21,23 @@ body
 }
 
 /*
+** Bill
+*/
+.inputBill
+{
+      background-color: red;
+      display: grid;
+      width: 50%;
+}
+
+/*
 ** Select Tip
 */
 .selectTip
 {
       display: grid;
       grid-template-columns: auto auto auto;
+      background-color: yellow;
 }
 
 .selectTip button
@@ -36,6 +47,14 @@ body
       cursor: pointer;
 }
 
+.inputPeople
+{
+      background-color: aqua;
+      display: grid;
+      position: relative;
+      top: 200px;
+}
+
 
 /*
 ** Output
@@ -43,6 +62,14 @@ body
 .outputSide
 {
       background-color: #095458;
+}
+
+.insideOutput
+{
+      text-align: center;
+      background-color: beige;
+      width: 90%;
+      border-radius: 20px;
 }
 
 /*
